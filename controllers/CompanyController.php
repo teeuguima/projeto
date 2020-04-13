@@ -54,7 +54,7 @@ class CompanyController{
     }
 
     public static function delete($id){
-        header("Location:delete.php");
+        header("Location:/../../views/admin/company/delete.php");
 
     }
 

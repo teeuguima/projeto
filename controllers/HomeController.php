@@ -3,10 +3,14 @@
 class HomeController{
 
     public function login(){
-        header("Location:views/login.php");
+        header("Location:/Projeto/views/user/login.php");
     }
 
     public function index(){
-        header("Location:views/home.php");
+        header("Location:/Projeto/views/home.php");
+    }
+
+    public function register(){
+        header("Location:/Projeto/views/user/register.php");
     }
 }

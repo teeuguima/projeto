@@ -1,0 +1,38 @@
+
+.btn-enter {
+    color: #fff;
+    background-color: #1E1598;
+    border-radius: 10px;
+    border-color: #6c757d00;
+  }
+  
+  .btn-enter:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  .btn-enter:focus, .btn-enter.focus {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }
+  
+  .btn-enter.disabled, .btn-enter:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-enter:not(:disabled):not(.disabled):active, .btn-enter:not(:disabled):not(.disabled).active,
+  .show > .btn-enter.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b;
+  }
+  
+  .btn-enter:not(:disabled):not(.disabled):active:focus, .btn-enter:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-enter.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }

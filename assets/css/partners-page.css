@@ -1,0 +1,118 @@
+.btn-register {
+    color: #1E1598;
+    background-color: rgba(30, 21, 152, 0);
+    border-radius: 9px;
+    border-color: #1E1598;
+    width: 120px;
+    height: 34px;
+    font-size: 12px;
+    font-family: Montserrat-Medium;
+  }
+  
+.btn-enter {
+    color: #fff;
+    background-color: #1E1598;
+    border-radius: 9px;
+    border-color: #6c757d00;
+    width: 120px;
+    height: 34 px;
+    font-size: 12px;
+    font-family: 'Montserrat-Medium';
+  }
+
+.text-navBar{
+    color: #564DD7;
+    font-size: 12px;
+    font-family: 'Montserrat-Semibold';
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+/* *Container Superior* */
+.container{
+    margin-left: 0;
+    padding-left: 0;
+    width: 1091px;
+    height: 272px;
+}
+
+.first-container{
+    background-image: url("/Projeto/assets/img/forms-irregular/form-4.png");
+}
+
+
+.first-container-div2{
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 60px;
+}
+
+.first-container-div3{
+    position: absolute;
+    margin-left: 80px;
+}
+
+.first-h1-nosso-parc{
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+}
+
+.first-h1-acreditam{
+    color: #291D81;
+    font-size: 40px;
+    margin-left: -30px;
+    margin-top: -80px;
+    text-align: right;
+}
+
+.first-p-cultivam{
+    color: #4431C9;
+    font-size: 18px;
+    text-align: right;
+    font-style: italic;
+}
+
+.img-form-5{
+    width: 108px;
+    height: 134px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+/* *Container Centralizado* */
+.h1-40org{
+    color: #291D81;
+    font-size: 32px;
+    box-align: center;
+}
+
+.h1-category{
+    color: #291D81;
+    font-size: 32px;
+    text-align: left;
+}
+
+.p-ajust{
+    color: #4431C9;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+}
+
+@font-face{
+    font-family: Montserrat-Medium;
+    src: url('Montserrat-Medium.ttf');
+    src: url('Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face{
+    font-family: 'Montserrat-Semibold';
+    src: url('Montserrat-Semibold.ttf');
+    src: url('Montserrat-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
