@@ -3,8 +3,6 @@ namespace controllers;
 
 use User;
 
-//session_start();
-
 
 class UserController{
     private $user;
@@ -27,7 +25,7 @@ class UserController{
         }else{
             //setcookie("email",$email);
             $_SESSION['user'] = $this->user->getEmail();
-            header("Location:dashboard.php");
+            header("Location:/Projeto/views/admin/dashboard.php");
         }
     }
 
@@ -53,7 +51,7 @@ class UserController{
         }
     }
     public static function verifyRegister(){
-        header("Location:login.php");
+        header("Location:/Projeto/views/user/login.php");
     }
 
     public static function logout(){

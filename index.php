@@ -7,7 +7,7 @@
     require_once "controllers/UserController.php";
     require_once "controllers/HomeController.php";
     require_once "controllers/CompanyController.php";
-    //require_once "views/home.php";
+   
 
     
     

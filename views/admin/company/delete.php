@@ -1,7 +1,7 @@
 <?php 
     require_once "../../../dataBase/Connection.php";
     require_once "../../../models/User.php";
-   // require_once "../../../controllers/UserController.php";
+    require_once "../../../controllers/UserController.php";
     use controllers\UserController;
     UserController::verifyLogin();    
 ?>

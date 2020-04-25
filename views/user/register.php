@@ -1,6 +1,9 @@
 <?php
 
-    session_start();
+use controllers\UserController;
+namespace user;
+session_start();
+include_once "../../controllers/UserController.php";
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -34,7 +37,7 @@
                     <label class="ajust-label" >Senha</label>
                     <input type="password" class="form-control" name="password" id="password">
                 </div>
-                <button type="submit" class="btn btn-enter" value="Cadastrar">Registrar</button>
+                <button type="submit" class="btn btn-enter" value="register">Registrar</button>
             </form>
         </div>
    

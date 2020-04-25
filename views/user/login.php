@@ -1,5 +1,8 @@
 <?php
-    session_start(); 
+
+use controllers\UserController;
+session_start(); 
+include_once "../../controllers/UserController.php";
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -20,8 +23,8 @@
                 <img src="/Projeto/assets/img/logo-brasil-junior.png" class="img-brasil-junior" >
             </div>
 
-          <!--  <form  action="/Projeto/user/check"  name="login" method="post"> -->
-            <form  action="/Projeto/views/admin/dashboard.php"  name="login" method="post">
+            <form  action="/Projeto/user/check"  name="login" method="post"> 
+           <!-- <form  action="/Projeto/views/admin/dashboard.php"  name="login" method="post"> -->
                 <div class="form-group">
                     <label class="ajust-label">Email </label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
