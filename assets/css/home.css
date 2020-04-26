@@ -1,3 +1,5 @@
+/* Estilos para buttons */
+
 .btn-register {
     color: #1E1598;
     background-color: rgba(30, 21, 152, 0);
@@ -7,8 +9,8 @@
     height: 34px;
     font-size: 12px;
     font-family: Montserrat-Medium;
-  }
-  
+}
+
 .btn-enter {
     color: #fff;
     background-color: #1E1598;
@@ -18,9 +20,24 @@
     height: 34 px;
     font-size: 12px;
     font-family: 'Montserrat-Medium';
-  }
+}
 
-.text-navBar{
+.btn-conteiner {
+    width: 245px;
+    height: 49px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #1E1598;
+    font-size: 16px;
+    font-family: 'Montserrat-Medium';
+    -webkit-box-shadow: 1px 8px 11px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 1px 8px 11px 0px rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 8px 11px 0px rgba(0, 0, 0, 0.55);
+}
+
+/* Estilos para os textos */
+
+.text-navBar {
     color: #564DD7;
     font-size: 12px;
     font-family: 'Montserrat-Semibold';
@@ -28,25 +45,25 @@
     padding: 0.5rem 1rem;
 }
 
-.container-background{
+.container-background {
     max-height: 625px;
-    position:relative; 
-    top:0px; 
-    left:0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
     margin-left: 140px;
 }
 
-.img-background{
+.img-background {
     margin-left: 200px;
 }
 
-.container-info{
-    position:absolute;
-    top:170px; 
+.container-info {
+    position: absolute;
+    top: 170px;
     left: -100px;
-
 }
-.p1{
+
+.p1 {
     color: #0A054F;
     font-size: 32px;
     font-family: 'Montserrat-Semibold';
@@ -54,7 +71,7 @@
     text-align: left;
 }
 
-.p2{
+.p2 {
     color: #564DD7;
     font-size: 16px;
     font-family: 'Montserrat-Medium';
@@ -62,35 +79,18 @@
     text-align: left;
 }
 
-.btn-conteiner{
-    width: 245px;
-    height: 49px;
-    color: rgb(255, 255, 255);
-    border-radius: 25px;
-   background-color: #1E1598; 
-    font-size: 16px;
-    font-family: 'Montserrat-Medium';
-
-    -webkit-box-shadow: 1px 8px 19px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 8px 19px 0px rgba(0,0,0,0.75);
-box-shadow: 1px 8px 19px 0px rgba(0,0,0,0.75);
-}
-
-@font-face{
+@font-face {
     font-family: Montserrat-Medium;
     src: url('Montserrat-Medium.ttf');
     src: url('Montserrat-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    
 }
 
-@font-face{
+@font-face {
     font-family: 'Montserrat-Semibold';
     src: url('Montserrat-Semibold.ttf');
     src: url('Montserrat-Semibold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
-  

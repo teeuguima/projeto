@@ -1,38 +1,37 @@
-.first-container{
+.first-container {
     position: relative;
     background-color: #fff;
     width: 400px;
     height: 505px;
     top: 60px;
-
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.22);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.22);
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
 }
 
-.second-container{
+.second-container {
     position: absolute;
 }
 
-.h1{
+.h1 {
     padding-top: 10px;
     font-size: 26px;
     text-align: center;
     color: #0A054F;
 }
 
-.img-brasil-junior{
+.img-brasil-junior {
     margin-top: 10px;
     width: 101px;
     height: 74px;
     margin-left: 140px;
 }
 
-.ajust-label{
+.ajust-label {
     color: #0A054F;
 }
 
-.btn-enter{
+.btn-enter {
     color: #fff;
     font-size: 16px;
     background-color: #0A054F;

@@ -22,6 +22,9 @@
                 <li class="nav-item ">
                     <a class="text-navBar" href="/Projeto/views/about-brasil-jr.php">QUEM SOMOS <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item ">
+                    <a class="text-navBar" href="/Projeto/views/about-mej.php">CONHEÇA A MEJ<span class="sr-only">(current)</span></a>
+                </li>
                 <li class="nav-item">
                     <a class=" text text-navBar" href="/Projeto/views/partners.php">PARCEIROS</a>
                 </li>
@@ -170,9 +173,9 @@
                     INSTITUCIONAIS
                 </h1>
                 <p class="p-ajust">
-                    Os parceiros institucionais da Brasil Júnior <br/>
-                    funcionam como grandes mentores alavancando <br/>
-                    determinados projetos estratégicos por meio de <br/>
+                    Os parceiros institucionais da Brasil Júnior <br />
+                    funcionam como grandes mentores alavancando <br />
+                    determinados projetos estratégicos por meio de <br />
                     conhecimentos reais
                 </p>
             </div>

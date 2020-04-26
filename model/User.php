@@ -1,6 +1,6 @@
 <?php
     use dataBase\Connection;
-    class User{
+    class User extends Connection{
         private $id;
         private $name;
         private $email;
@@ -12,7 +12,7 @@
             $this->name = $name;
             $this->email = $email;
             $this->password = $password;
-            $this->connect =  Connection::getConnection();
+            $this->connect =  $this->getConnection();
         }
 
         public function getId(){
@@ -47,30 +47,30 @@
             $this->password = $password;
         }
 
-        public static function register(){
+        public function register(){
 
-            $select = mysqli_query($this->connect, "SELECT email FROM users WHERE email = '$this->getEmail()'");
+            $select = mysqli_query($this->connect, "SELECT email FROM users WHERE email = '$this->email'");
             $array = mysqli_fetch_array($select);
-            $logarray = $array[$this->getEmail()];
+            $logarray = $array[$this->email];
 
-            if ($this->getEmail() == "" || $this->getEmail() == null) {
+            if ($this->email == "" || $this->email == null) {
                 echo "<script> alert( 'O campo email deve ser preenchido 
                 '); history.back();</script>";
             } else {
-                if ($logarray == $this->getEmail()) {
+                if ($logarray == $this->email) {
                     echo "<script> 
                     alert( 'Esse e-mail já foi cadastrado'); 
                     history.back();</script>";
                 } else {
-                    $query = "INSERT INTO users (name, email, password) VALUES ('$this->getName()','$this->getEmail()',
-                     '$this->getPassword()')";
+                    $query = "INSERT INTO users (name, email, password) VALUES ('$this->name','$this->email',
+                     '$this->password')";
                     return $insert = mysqli_query($this->connect, $query);
                     
                 }
             }
         }
 
-        public static function check(){
+        public function check(){
 
             $verify = mysqli_query($this->connect, "SELECT * FROM users WHERE email = '$this->getEmail()' AND password = '$this->getPassword()'");
             return $verify;

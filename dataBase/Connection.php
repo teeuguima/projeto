@@ -1,10 +1,9 @@
 <?php
-namespace dataBase;
-
+    namespace dataBase;
 abstract class Connection{
     private static $connection;
     
-    public static function getConnection(){
+    public function getConnection(){
         if(!self::$connection){
             self::$connection = mysqli_connect("localhost", "root", "05101322", "backend");
         }

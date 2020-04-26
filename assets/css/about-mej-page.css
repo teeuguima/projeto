@@ -53,19 +53,37 @@
 
 /* Estilos para headers e parágrafos */
 
-.h1-o-que {
-    font-size: 34px;
+.h1-mej {
+    font-size: 40px;
     color: #171372;
-    padding-top: 125px;
+    padding-top: 0px;
     padding-left: 60px;
-    text-align: right;
+    text-align: left;
 }
 
-.p-representar {
+.h1-propositos {
+    font-size: 36px;
+    color: #291D81;
+    text-align: left;
+}
+
+.h1-titles {
+    color: #4431C9;
+    font-size: 32px;
+    text-align: left;
+}
+
+.p-definition {
+    color: #4431C9;
+    font-size: 18px;
+    text-align: left;
+}
+
+.p-nossa-missao {
     color: #3F3F91;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.3;
-    text-align: right;
+    text-align: left;
     padding-top: 0px;
     padding-left: 60px;
 }

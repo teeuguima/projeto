@@ -24,6 +24,9 @@
         <li class="nav-item ">
           <a class="text-navBar" href="/Projeto/views/about-brasil-jr.php">QUEM SOMOS <span class="sr-only">(current)</span></a>
         </li>
+        <li class="nav-item ">
+          <a class="text-navBar" href="/Projeto/views/about-mej.php">CONHEÇA A MEJ<span class="sr-only">(current)</span></a>
+        </li>
         <li class="nav-item">
           <a class=" text text-navBar" href="/Projeto/views/partners.php">PARCEIROS</a>
         </li>
@@ -52,39 +55,47 @@
   <div class="container container-center mx-auto">
     <div class="row">
       <div class="col-sm" style="position: relative">
-        <img src="/Projeto/assets/img/forms-irregular/form-2.png" alt="">
-        <div class="subcontainer-icon-1">
-          <img src="/Projeto/assets/img/icons/facebook.png" width="50" height="50" alt="">
-        </div>
+        <a href="https://www.facebook.com/brasiljunior/" target="_blank">
+          <img src="/Projeto/assets/img/forms-irregular/form-2.png" alt="">
+          <div class="subcontainer-icon-1">
+            <img src="/Projeto/assets/img/icons/facebook.png" width="50" height="50" alt="">
+          </div>
+        </a>
         <p class="text-p-container-center" style="margin-left: 20px">
-        /brasiljunior
+          /brasiljunior
         </p>
       </div>
       <div class="col-sm" style="position: relative">
-        <img src="/Projeto/assets/img/forms-irregular/form-2.png" alt="">
-        <div class="subcontainer-icon-1">
-          <img src="/Projeto/assets/img/icons/youtube.png" width="50" height="50" alt="">
-        </div>
+        <a href="https://www.youtube.com/channel/UCJpa3dGqxDUkZq3tFDf0l4Q" target="_blank">
+          <img src="/Projeto/assets/img/forms-irregular/form-2.png" alt="">
+          <div class="subcontainer-icon-1">
+            <img src="/Projeto/assets/img/icons/youtube.png" width="50" height="50" alt="">
+          </div>
+        </a>
         <p class="text-p-container-center">
-        /BrasilJuniorVideos
+          /BrasilJuniorVideos
         </p>
       </div>
       <div class="col-sm" style="position: relative">
-        <img src="/Projeto/assets/img/forms-irregular/form-2.png" alt="">
-        <div class="subcontainer-icon-1">
-          <img src="/Projeto/assets/img/icons/instagram.png" width="50" height="50" alt="">
-        </div>
+        <a href="https://www.instagram.com/bjnoinsta/" target="_blank">
+          <img src="/Projeto/assets/img/forms-irregular/form-2.png" alt="">
+          <div class="subcontainer-icon-1">
+            <img src="/Projeto/assets/img/icons/instagram.png" width="50" height="50" alt="">
+          </div>
+        </a>
         <p class="text-p-container-center" style="margin-left: 30px">
-        /bjnoinsta
+          /bjnoinsta
         </p>
       </div>
       <div class="col-sm" style="position: relative">
-        <img src="/Projeto/assets/img/forms-irregular/form-2.png" alt="">
-        <div class="subcontainer-icon-1">
-          <img src="/Projeto/assets/img/icons/spotify.png" width="50" height="50" alt="">
-        </div>
+        <a href="https://open.spotify.com/show/7IMjbTXIPCQFDeIBCJtIA1?si=I7DGqPjtR122tgGCQRdbNA" target="_blank">
+          <img src="/Projeto/assets/img/forms-irregular/form-2.png" alt="">
+          <div class="subcontainer-icon-1">
+            <img src="/Projeto/assets/img/icons/spotify.png" width="50" height="50" alt="">
+          </div>
+        </a>
         <p class="text-p-container-center" style="margin-left: 49px">
-        BJcast
+          BJcast
         </p>
       </div>
     </div>
