@@ -17,10 +17,13 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/Projeto/index.php">
       <img src="/Projeto/assets/img/logo-brasil-junior.png" width="101" height="74" class="d-inline-block align-top" alt="">
-
     </a>
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -46,24 +49,29 @@
 
     </div>
   </nav>
-  <!--
-    <br>
-    -->
-  <div class="container-background">
-    <img class="img-background" src="/Projeto/assets/img/image-background.png">
-    <div class="container-info">
-      <p class="p1">
-        Formar empreendedores <br /> comprometidos e capazes <br /> de transformar o Brasil
-      </p>
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 d-flex">
+          <div class="align-self-center" style="margin-top: 30px; margin-left:-20px">
+            <p class="p1">
+              Formar empreendedores <br /> comprometidos e capazes <br /> de transformar o Brasil
+            </p>
 
-      <p class="p2">
-        Nosso compromisso, nossa razão de existir, <br />a marca que queremos deixar no mundo.
-      </p>
+            <p class="p2">
+              Nosso compromisso, nossa razão de existir, <br />a marca que queremos deixar no mundo.
+            </p>
 
-      <button type="button" class="btn btn-conteiner">Conheça mais</button>
+            <button type="button" class="btn btn-conteiner">Conheça mais</button>
+          </div>
+
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <img class="img-background" src="/Projeto/assets/img/image-background.png" style="margin-left: -355px;">
+        </div>
+      </div>
     </div>
-  </div>
-
+  </section>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

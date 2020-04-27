@@ -60,15 +60,13 @@
     text-align: left;
 }
 
-.first-h1-acreditam {
+.h1-acreditam {
     color: #291D81;
     font-size: 40px;
-    margin-left: -30px;
-    margin-top: -80px;
     text-align: right;
 }
 
-.first-p-cultivam {
+.p-cultivam {
     color: #4431C9;
     font-size: 18px;
     text-align: right;
@@ -81,13 +79,17 @@
     margin-left: 70px;
     margin-top: 50px;
 }
+/*Estilo para section */
+.sections{
+    padding: 60px 0;
+}
 
 /* Estilos para o Container Centralizado */
 
 .h1-40org {
     color: #291D81;
     font-size: 32px;
-    box-align: center;
+    text-align: center;
 }
 
 .h1-category {

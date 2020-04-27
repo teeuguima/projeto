@@ -35,32 +35,35 @@
     box-shadow: 1px 8px 11px 0px rgba(0, 0, 0, 0.55);
 }
 
-/* Estilos para os textos */
-
-.text-navBar {
-    color: #564DD7;
-    font-size: 12px;
-    font-family: 'Montserrat-Semibold';
-    display: block;
-    padding: 0.5rem 1rem;
-}
+/* Estilos para conteiners*/
 
 .container-background {
     max-height: 625px;
     position: relative;
     top: 0px;
     left: 0px;
-    margin-left: 140px;
-}
-
-.img-background {
-    margin-left: 200px;
 }
 
 .container-info {
     position: absolute;
     top: 170px;
     left: -100px;
+}
+
+.col-bg {}
+
+/* Estilos para os textos */
+
+.text-navBar {
+    color: #564DD7;
+    font-size: 12px;
+    display: block;
+    padding: 0.5rem 1rem;
+    font-family: "Montserrat-Medium";
+    src: url('Montserrat-Medium.ttf');
+    src: url('Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .p1 {
